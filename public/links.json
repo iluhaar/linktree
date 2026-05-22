@@ -8,6 +8,7 @@
     { "label": "GitHub",     "url": "https://github.com/iluhaar",          "icon": "github" },
     { "label": "Twitter / X","url": "https://twitter.com/iluhaar",         "icon": "twitter" },
     { "label": "LinkedIn",   "url": "https://linkedin.com/in/iluhaar",     "icon": "linkedin" },
+    { "label": "Bluesky",    "url": "https://bsky.app/profile/illiadot.dev", "icon": "bluesky" },
     { "label": "Email",      "url": "mailto:iluhaar@gmail.com",            "icon": "mail" }
   ],
   "theme": {
