@@ -5,6 +5,7 @@
   --text:    #f0f0f0;
   --subtext: #aaaaaa;
   --radius:  14px;
+  --avatar-size: 350px;
 }
 
 *, *::before, *::after {
@@ -34,14 +35,14 @@ main {
 
 /* Avatar */
 .avatar-wrap {
-  width: 96px;
-  height: 96px;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
   margin-bottom: 0.25rem;
 }
 
 .avatar-wrap img {
-  width: 96px;
-  height: 96px;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent);
