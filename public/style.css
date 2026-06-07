@@ -10,6 +10,8 @@
   --font-sans: system-ui, -apple-system, sans-serif;
   --radius: 12px;
   --avatar-size: clamp(7rem, 20vw, 10rem);
+  --mark-bg: #1a1816;
+  --mark-fg: #faf8f5;
 }
 
 [data-theme="dark"] {
@@ -20,6 +22,8 @@
   --accent: #c98240;
   --border: #2e2a26;
   --surface: rgba(255, 255, 255, 0.03);
+  --mark-bg: #ede9e3;
+  --mark-fg: #181614;
 }
 
 *, *::before, *::after {
@@ -179,6 +183,10 @@ ul[role="list"] {
   justify-content: center;
   flex-shrink: 0;
   opacity: 0.85;
+}
+
+.site-mark {
+  display: block;
 }
 
 .link-card:hover .icon {
